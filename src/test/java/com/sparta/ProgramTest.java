@@ -10,12 +10,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class ProgramTest {
     @Test
-    @DisplayName("My first test")
-    public void firstTest(){
-        Assertions.assertTrue(5==4);
-    }
-
-    @Test
     @DisplayName("given a time of 21, greeting return good evening")
     public void given21_greeting_returnGoodEvening(){
         int time=21;
