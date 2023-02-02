@@ -13,11 +13,13 @@ public class Program {
         if(timeOfDay >=5 && timeOfDay <=12){
             greeting="Good morning";
         }
-        else if(timeOfDay >12 && timeOfDay <=18){
+        else if(timeOfDay >=13 && timeOfDay <=18){
             greeting="Good afternoon";
         }
-        else if(){
+        else if(timeOfDay >=19 && timeOfDay <=24){
             greeting="Good evening";
+        } else{
+            greeting="unrecognised time";
         }
         return greeting;
     }
